@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="styles.css"/>
+<!-- cloudflare link is used to generate icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />  
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:200i,300,400&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Raleway:700&display=swap"
+      rel="stylesheet"
+    />
+  <head>
+  <body>
+
+    <h1 id="title">Job Search PreE-Evaluation Form</h1>
+    <p id="description">Thank you for taking the time to help us understand you better</p>
+    <div class="main-body">
+      <form id="survey-form">
+        <div class="form-group">
+          <label id="name-label" for="name">Name</label>
+          <input id="name" class="form-control" type="text" required placeholder="name here" />
+        </div>
+        <div class="form-group">
+          <label id="email-label" for="email-address">Email</label>
+          <input id="email" class="form-control" type="email" required placeholder="email here" />
+        </div>
+        <div class="form-group">
+          <label id="number-label" for="age">Age</label>
+          <input id="number" class="form-control" type="number" min="1" max="30" placeholder="21" />
+        </div>
+        <div class="form-group">
+          <label for="dropdown">What is your current occupation?</label>
+          <select class="form-control" id="dropdown" name="dropdown">
+            <option value="Student">Student</option>
+            <option value="Researcher">Researcher</option>
+            <option value="Working Adult">Working Adult</option>
+            <option value="Unemployed">Unemployed</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <p>Would you like to change occupation?</p>
+          <label>
+            <input class="radio-check" value="1" name="ok" type="radio"/>
+          Definitely
+          </label>
+          <label>
+            <input class="radio-check" value="1" name="ok" type="radio"/>
+          Maybe
+
+          <label>
+            <input class="radio-check" value="1" name="ok" type="radio"/>
+          No
+          </label>
+         <div class="form-group">
+          <p>What is the most important criteria for a career change?</p>
+          <label><input class="radio-check" value="2" name="ok" type="radio"/>Salary</label>
+          <label><input class="radio-check" value="2" name="ok" type="radio"/>Work-Life Balance</label>
+          <label><input class="radio-check" value="2" name="ok" type="radio"/>Work Culture</label>
+        </div>
+        <div class="form-group">
+          <p>What aspect of yourself would you like to improve?</p>
+          <label><input class="radio-check" value="2"  type="checkbox"/>Communication</label>
+          <label><input class="radio-check" value="2" type="checkbox"/>Front-end skills</label>
+          <label><input class="radio-check" value="2" type="checkbox"/>Back-end Skills</label>
+          <label><input class="radio-check" value="2"type="checkbox"/>Network with people</label>
+        </div>
+        <div class="form-group">
+          <label>choose multiple options <input value="1" class="radio-check" type="checkbox" /></label>
+        </div>
+        <div class="form-group">
+          <label>Any other comments/suggestions <textarea class="form-control" placeholder="hellofsdsfsdfs"></textarea>  </label>
+        </div>
+        <input id="submit" class="form-control submit-form" type="submit" value="Submit">
+      </form>
+    </div>
+  </body>

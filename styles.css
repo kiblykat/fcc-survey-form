@@ -1,0 +1,68 @@
+*,*::before,*::after{
+  box-sizing:border-box;
+  color:white;
+  font-family:Poppins;
+}
+
+h1{
+  font-family:Raleway, sans-serif;
+}
+
+#title, #description{
+  text-align:center;
+}
+
+body{
+  background-image:linear-gradient(
+    115deg,
+    rgba(58,58,58,0.8),
+    rgba(58,58,58,0.7)),
+    url(https://media.istockphoto.com/id/178447404/photo/modern-business-buildings.jpg?s=1024x1024&w=is&k=20&c=w15AGFL7iZtN6aXbIlrUWZbkft2HtZq9TnKrmp5Jr2g=);
+    background-size:cover;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+
+label{
+  display: block;
+  margin: auto;
+}
+
+.main-body{
+  background-color:#61718A;
+  padding:50px 70px;
+  width:800px;
+  border-radius:5px;
+}
+
+.form-group{
+  margin:10px 0px;
+}
+
+
+.form-control{
+  display:block;
+  height:2.327rem;
+  border-radius:5px;
+  width:100%;
+  color:black;
+}
+
+option{
+  color:black;
+}
+
+.submit-form{
+  background-color:#1CBB43;
+  border:none;
+  color:white;
+  height:50px;
+}
+
+.submit-form:hover{
+  color:#FFFF9E;
+  background-color:#3b5d17;
+  transition:background-color 0.3s ease-in;
+}
